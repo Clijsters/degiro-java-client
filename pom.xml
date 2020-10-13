@@ -3,12 +3,12 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.indiketa</groupId>
     <artifactId>degiro-java-client</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-clijsters-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Unofficial DeGiro Api</name>
     <description>The DeGiro java api client makes it easier to automate DeGiro stock broker actions.</description>
     <url>https://github.com/indiketa/degiro-java-client</url>
-    
+
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
@@ -73,14 +73,14 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
-    
+
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
-    
+
     <build>
         <testResources>
             <testResource>
@@ -122,6 +122,6 @@
             </plugin>
         </plugins>
     </build>
-    
-    
+
+
 </project>

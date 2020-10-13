@@ -39,7 +39,7 @@ public class DConfig implements IValidable {
                 productSearchUrl == null ||
                 dictionaryUrl == null ||
                 taskManagerUrl == null ||
-                firstLoginWizardUrl == null ||
+                //FIXME firstLoginWizardUrl == null ||
                 loginUrl == null ||
                 vwdGossipsUrl == null ||
                 companiesServiceUrl == null ||
